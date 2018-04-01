@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.newblockproperties.reinumbers" version="1.0.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>REI Numbers</name>
+    <description>
+        Hello World sample application that responds to the deviceready event.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <gap:config-file parent="NSPhotoLibraryUsageDescription" platform="ios">
+        <string>For uploading receipt images</string>
+    </gap:config-file>
+    <gap:plugin name="cordova-plugin-document-viewer" spec="https://github.com/sitewaerts/cordova-plugin-document-viewer.git" />
+    <gap:plugin name="cordova-plugin-document-viewer" />
+    <gap:plugin name="cordova-plugin-file" spec="~6.0.1" />
+    <gap:plugin name="cordova-plugin-file-transfer" spec="~1.5.1" />
+    <gap:plugin name="cordova-plugin-file-opener2" spec="https://github.com/pwlin/cordova-plugin-file-opener2.git" />
+    <gap:plugin name="cordova-plugin-device" spec="~1.1.7" />
+    <gap:plugin name="cordova-pdf-generator" spec="~2.0.1" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+</widget>

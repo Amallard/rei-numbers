@@ -1,0 +1,57 @@
+      <!-- App Content -->
+      <!-- <img src="img/neighborhood.jpeg" width="100%"> -->
+      <div class="app-content">
+
+        <h3>Property Expenses</h3>
+
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item" ng-repeat="page in $ctrl.getBreadcrumbs()"><a ng-click="$ctrl.currentStep=page.step">{{page.name}}</a></li>
+        </ol>
+
+        <label>Purchase Price</label>
+        <input type="text" class="form-control" placeholder="$500,000">
+
+        <label>After Repair Value (ARV)</label>
+        <input type="text" class="form-control" placeholder="$750,000">
+
+        <label>Closing Costs</label>
+        <input type="text" class="form-control" placeholder="$2,000">
+
+        <label>Estimated Repair Cost</label>
+        <input type="text" class="form-control" placeholder="$50,000">
+
+        <label>Annual Property Taxes</label>
+        <input type="text" class="form-control" placeholder="$4,000">
+
+        <label>Type of Purchase</label><br>
+        <div class="btn-group btn-group-toggle">
+          <label class="btn btn-primary" ng-class="{'active' : $ctrl.typeOfPurchase=='loan'}">
+            <input type="radio" name="options" id="option1" ng-model="$ctrl.typeOfPurchase" value="loan" checked="">Loan
+          </label>
+          <label class="btn btn-primary" ng-class="{'active' : $ctrl.typeOfPurchase=='cash'}">
+            <input type="radio" name="options" id="option2" ng-model="$ctrl.typeOfPurchase" value="cash">Cash
+          </label>
+        </div><br>
+
+        <div ng-show="$ctrl.typeOfPurchase=='loan'">
+
+          <label>Down Payment Percent</label>
+          <input type="text" class="form-control" placeholder="20%">
+
+          <label>Loan Interest Rate</label>
+          <input type="text" class="form-control" placeholder="3.5%">
+
+          <label>Down Payment Percent</label>
+          <input type="text" class="form-control" placeholder="20%">
+
+          <label>Ammoritized in Years</label>
+          <input type="text" class="form-control" placeholder="30">
+
+        </div>
+
+        <label>Cap Rate</label>
+        <input type="textarea" class="form-control" placeholder="12.0%">
+
+        <br>
+        <button class="btn btn-danger btn-block" ng-click="$ctrl.nextPage()">Step 3 <i class="fas fa-chevron-circle-right"></i></button>
+      </div>

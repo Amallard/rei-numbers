@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">{{$ctrl.navTitle}}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggle-button">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" ng-class="{'active' : $ctrl.linkActive=='home'}">
+        <a class="nav-link" data-toggle="collapse" data-target="#navbarColor02" ng-click="$ctrl.linkTo('home')">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" ng-class="{'active' : $ctrl.linkActive=='rental'}">
+        <a class="nav-link" data-toggle="collapse" data-target="#navbarColor02" ng-click="$ctrl.linkTo('rental')">Create Rental Property Report</a>
+      </li>
+      <li class="nav-item" ng-class="{'active' : $ctrl.linkActive=='flip'}">
+        <a class="nav-link" data-toggle="collapse" data-target="#navbarColor02" ng-click="$ctrl.linkTo('flip')">Create Fix and Flip Report</a>
+      </li>
+      <li class="nav-item" ng-class="{'active' : $ctrl.linkActive=='saved'}">
+        <a class="nav-link" data-toggle="collapse" data-target="#navbarColor02" ng-click="$ctrl.linkTo('saved')">My Saved Reports</a>
+      </li>
+      <li class="nav-item" ng-class="{'active' : $ctrl.linkActive=='about'}">
+        <a class="nav-link" data-toggle="collapse" data-target="#navbarColor02" ng-click="$ctrl.linkTo('about')">About</a>
+      </li>
+    </ul>
+  </div>
+</nav>

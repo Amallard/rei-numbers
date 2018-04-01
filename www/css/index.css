@@ -1,0 +1,72 @@
+body {
+  background: #efefef;
+}
+
+p {
+  color: #333;
+}
+
+p a {
+  color: #CD0200;
+}
+
+.app {
+  display: flex;
+  min-height: 75vh;
+  flex-direction: column;
+}
+.app-content {
+  flex: 1;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.inverse {
+  border: 1px solid #333;
+  padding: 20px;
+  transition: background 0.3s ease;
+  font-size: 16px;
+  word-wrap: normal;
+}
+.inverse:hover {
+  background: #eee;
+  color: #CD0200;
+}
+
+footer p {
+  margin: 0;
+  color: #999;
+}
+footer a {
+  color: #CD0200;
+}
+footer {
+  background: #343434;
+  padding-top: 10px;
+}
+
+.contact-table {
+  color: #333;
+  font-size: 18px;
+}
+
+.btn-primary {
+    color: #dcdcdc;
+    background-color: #aaa;
+    border-color: #cdcdcd;
+}
+.btn-primary:hover {
+    background-color: #d9534f;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+.fa-trash-alt {
+  color: #d9534f;
+}
+.fa-edit {
+  color: #f0ad4e;
+}

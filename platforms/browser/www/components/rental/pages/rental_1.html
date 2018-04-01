@@ -1,0 +1,38 @@
+  <!-- App Content -->
+  <img src="img/neighborhood.jpeg" width="100%">
+  <div class="app-content">
+
+    <h3>Property Details</h3>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item" ng-repeat="page in $ctrl.getBreadcrumbs()"><a ng-click="$ctrl.currentStep=page.step">{{page.name}}</a></li>
+    </ol>
+
+    <label>Project Name</label>
+    <input type="text" class="form-control" placeholder="Lambeau Field">
+
+    <label>Property Address</label>
+    <input type="text" class="form-control" placeholder="1265 Lombardi Ave.">
+
+    <label>Property City</label>
+    <input type="text" class="form-control" placeholder="Green Bay">
+
+    <label>Property State</label>
+    <input type="text" class="form-control" placeholder="Wisconsin">
+
+    <label>Property Zip</label>
+    <input type="text" class="form-control" placeholder="54304">
+
+    <label>MLS Number</label>
+    <input type="text" class="form-control" placeholder="123456789">
+
+    <label>Property Description</label>
+    <input type="textarea" class="form-control">
+
+    <label>Upload Photo</label>
+    <input type="file" class="form-control">
+
+    <br>
+    <button class="btn btn-danger btn-block" ng-click="$ctrl.nextPage()">Step 2 <i class="fas fa-chevron-circle-right"></i></button>
+
+  </div>

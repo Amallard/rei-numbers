@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>My Reports</title>
+</head>
+
+<body>
+    <div class="app">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Reports</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rental_1.html">Create Rental Property Report</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="flip.html">Create Fix and Flip Report</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reports.html">My Saved Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- App Content -->
+      <img src="img/budget.jpg" width="100%">
+      <div class="app-content">
+        <button class="btn btn-block inverse"><i class="fas fa-home"></i> Create Rental Property Report</button>
+        <button class="btn btn-block inverse"><i class="fas fa-wrench"></i> Create Fix and Flip Report</button>
+        <button class="btn btn-block inverse"><i class="fas fa-save"></i> My Saved Reports</button>
+
+      </div>
+
+      <footer>
+        <center>
+          <p>Copyright 2018</p>
+          <p>New Block Properties</p>
+          <p><a href="https://www.newblockproperties.com">www.NewBlockProperties.com</a></p>
+        </center>
+      </footer>
+
+      <!-- End of App -->
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>

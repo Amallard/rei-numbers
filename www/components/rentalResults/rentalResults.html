@@ -1,0 +1,22 @@
+<!-- App Content -->
+<div class="app-content">
+
+  <h3>Property Results</h3>
+
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item" ng-repeat="page in $ctrl.getBreadcrumbs()"><a ng-click="$ctrl.currentStep=page.step">{{page.name}}</a></li>
+  </ol>
+
+  <div id="pie1" style="margin-bottom:200px"></div>
+
+
+  <label>Project Name</label>
+  <input type="text" class="form-control" placeholder="Lambeau Field">
+
+  <label>Property Address</label>
+  <input type="text" class="form-control" placeholder="1265 Lombardi Ave.">
+
+  <br>
+  <button class="btn btn-danger btn-block" ng-click="$ctrl.downloadPdf()">Download PDF <i class="fas fa-chevron-circle-right"></i></button>
+
+</div>

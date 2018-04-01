@@ -1,0 +1,84 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-pdf-generator": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-document-viewer": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-file-opener2": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        },
+        "org.devgeeks.Canvas2ImagePlugin": {
+            "PACKAGE_NAME": "com.newblockproperties.reinumbers"
+        }
+    },
+    "dependent_plugins": {}
+}
